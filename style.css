@@ -1,0 +1,207 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+
+.topcontainer {
+    margin: 0 auto;
+    padding: 50px;;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: large;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 70px 20px;
+}
+
+.bg-dark {
+    background: #444;
+    color: #fff;
+}
+
+.clr {
+    clear: both;
+}
+
+.py {
+    padding: 10px 0;
+}
+
+#nav {
+    background:black;
+    color: #fff;
+    overflow: auto;
+}
+
+#nav a {
+    color: #fff;
+}
+
+#nav h1 {
+    float: left;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+#nav ul {
+    float: right;
+    list-style: none;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 0 20px;
+    font-family: "Oswald";
+}
+
+#nav ul li a:hover,
+#nav ul li a.current {
+    background:black;
+    color: white;
+}
+
+
+#firstcase {
+    background: url(https://images.squarespace-cdn.com/content/v1/5bc6c7b5fb22a574a503454e/1629681001457-KT1O3EJ2U9YPWBFYJQ0Q/hero-front_of_deakin-university-deakin_university-1.jpg) no-repeat center center/cover;
+}
+
+#firstcase .firstcase-content {
+    color:white;
+    text-align: left;
+    padding-top: 100px;
+    margin-right: 250px;
+}
+
+#firstcase .firstcase-content h1 {
+    line-height: 1.2em;
+    font-family: "Oswald";
+    font-size: xx-large;
+}
+
+.midcontainer {
+    margin: 0 auto;
+    padding: 20px;;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: xx-large;
+
+}
+
+
+#personal-info {
+    height: 300px;
+}
+
+#personal-info .info-img {
+    float: left;
+    width: 50%;
+    background: url(https://www.cio.com/wp-content/uploads/2021/12/artificial-intelligence_brain_machine-learning_digital-transformation_world-networking-100777429-orig.jpg) no-repeat center center/cover;
+    height: 100%;
+}
+
+#personal-info .info-content {
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding: 50px 30px;
+    font-family: "Oswald";
+    overflow: hidden;
+    background-color: black;
+}
+
+#personal-info .info-content p {
+    padding-bottom: 38px;
+    Font-family: "Oswald";
+}
+
+
+.con {
+    float: left;
+    width: 33.333%;
+    padding: 50px;
+    text-align: center;
+}
+
+.con i {
+    margin-bottom: 10px;
+}
+
+.bg-black {
+    background:black;
+    color:white;
+    Font-family: "Oswald";
+}
+
+.bg-white {
+    background: #fefefe;
+    color: #333;
+    Font-family: "Oswald";
+}
+
+.pgrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .pgcolumn {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+  }
+  
+  .pgcolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    .pgcolumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+ h1 {
+    line-height: 1.2em;
+    font-family: "Oswald";
+    font-size: xx-large;
+}
